@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>About Me</title>
-      <link href="/2024/01/06/About-Me/"/>
-      <url>/2024/01/06/About-Me/</url>
+      <title>关于本站</title>
+      <link href="/2024/01/06/about-me/"/>
+      <url>/2024/01/06/about-me/</url>
       
-        <content type="html"><![CDATA[<h3 id="这是一篇测试文章，没有什么内容"><a href="#这是一篇测试文章，没有什么内容" class="headerlink" title="这是一篇测试文章，没有什么内容"></a>这是一篇测试文章，没有什么内容</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs Java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String []args)</span>&#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="这是一篇测试文章，没有什么内容"><a href="#这是一篇测试文章，没有什么内容" class="headerlink" title="这是一篇测试文章，没有什么内容"></a>这是一篇测试文章，没有什么内容</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">public class HelloWorld &#123;<br>    public static void main(String []args)&#123;<br>        System.out.println(<span class="hljs-string">&quot;Hello World!&quot;</span>)<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
