@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>PVE下CT容器中文乱码解决办法</title>
+      <link href="/2024/01/09/pve-ct-code/"/>
+      <url>/2024/01/09/pve-ct-code/</url>
+      
+        <content type="html"><![CDATA[<div class="note warning no-icon flat"><p>pve下虚拟机安装debian或ubuntu后ct内所有中文显示乱码，这主要是ct是精简版的系统导致所引起的</p></div><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>该办法适用于ubuntu和debain系统，操作如下：</p><ol><li>进入到ct容器控制台，</li><li>输入命令，dpkg-reconfigure locales，在第一个页出下选择如下项：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">en_US.UTF-8 UTF-8<br> <br>zh_CN GB2312<br>zh_CN.GB18030 GB18030<br>zh_CN.GBK GBK<br>zh_CN.UTF-8 UTF-8<br></code></pre></td></tr></table></figure></li><li>按Tab， 再对 OK 回车 进入下一页， 选择 en_US.UTF-8 UTF-8</li><li>重新启动容器，现在中文不再显示乱码。</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> pve </tag>
+            
+            <tag> ct </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo Butterfly 自用手册</title>
       <link href="/2024/01/09/hexo-butterfly/"/>
       <url>/2024/01/09/hexo-butterfly/</url>
