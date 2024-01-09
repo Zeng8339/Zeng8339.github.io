@@ -101,7 +101,7 @@
       <link href="/2024/01/05/hello-world/"/>
       <url>/2024/01/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<div class="note warning flat"><p>我的博客网站，就这样与大家见面了！</p></div><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<div class="note warning flat"><p>我的博客网站，就这样与大家见面了！</p></div><h2 id="在页面中显示一下资源图片"><a href="#在页面中显示一下资源图片" class="headerlink" title="在页面中显示一下资源图片"></a>在页面中显示一下资源图片</h2><div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"/static/images/background.png","alt":""}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
       
       
       <categories>
