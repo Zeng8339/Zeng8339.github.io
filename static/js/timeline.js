@@ -13,8 +13,11 @@ function postTimenode(args, content) {
   var time = args[0]
   return `<div class="timenode"><div class="meta"><p>${hexo.render.renderSync({text: time, engine: 'markdown'})}</p></div><div class="body">${hexo.render.renderSync({text: content, engine: 'markdown'}).split('\n').join('')}</div></div>`;
 }
-// <div class="timeline "></div>
+// {% timeline %}
+// ... timenode ...
+// {% endtimeline %}
 hexo.extend.tag.register('timeline', postTimeline, {ends: true});
-// <div class="timenode"><div class="meta"><p><p>time</p>
-</p></div><div class="body"><p>// what happened<br>// </p></div></div>
+// {% timenode time %}
+// what happened
+// {% endtimenode %}
 hexo.extend.tag.register('timenode', postTimenode, {ends: true});
